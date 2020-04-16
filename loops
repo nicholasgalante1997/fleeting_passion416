@@ -1,0 +1,30 @@
+irb(main):011:0> counter = 0
+=> 0
+irb(main):012:0> loop do
+irb(main):013:1* counter += 1
+irb(main):014:1> puts "iteration #{counter} of the loop"
+irb(main):015:1> if counter >= 10
+irb(main):016:2> break
+irb(main):017:2> end
+irb(main):018:1> end
+iteration 1 of the loop
+iteration 2 of the loop
+iteration 3 of the loop
+iteration 4 of the loop
+iteration 5 of the loop
+iteration 6 of the loop
+iteration 7 of the loop
+iteration 8 of the loop
+iteration 9 of the loop
+iteration 10 of the loop
+=> nil
+irb(main):019:0>
+
++= symbol is an incremental additive symbol
+establish an original value from a variable
+ie counter = 0
+add incremental addititive to variable within overA method
+add if method
+break
+end
+end
