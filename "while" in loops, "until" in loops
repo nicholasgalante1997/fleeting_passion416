@@ -36,3 +36,34 @@ while counter < 20
   counter += 1
   end
   
+"Until"
+
+counter = 0
+
+irb(main):030:0> until counter == 20
+irb(main):031:1> puts "the current number is #{counter}."
+irb(main):032:1> counter += 1
+irb(main):033:1> end
+the current number is 0.
+the current number is 1.
+the current number is 2.
+the current number is 3.
+the current number is 4.
+the current number is 5.
+the current number is 6.
+the current number is 7.
+the current number is 8.
+the current number is 9.
+the current number is 10.
+the current number is 11.
+the current number is 12.
+the current number is 13.
+the current number is 14.
+the current number is 15.
+the current number is 16.
+the current number is 17.
+the current number is 18.
+the current number is 19.
+=> nil
+irb(main):034:0> 
+
