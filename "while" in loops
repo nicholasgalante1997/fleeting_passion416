@@ -1,0 +1,38 @@
+irb(main):024:0> counter = 0
+=> 0
+irb(main):025:0> while counter < 20
+irb(main):026:1> puts "The number is less than 20"
+irb(main):027:1> counter += 1
+irb(main):028:1> end
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+The number is less than 20
+=> nil
+irb(main):029:0> 
+
+raw text code
+
+counter = 0
+
+while counter < 20
+  puts "The count is less than 20"
+  counter += 1
+  end
+  
